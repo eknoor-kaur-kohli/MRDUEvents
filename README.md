@@ -24,7 +24,7 @@ A modern, responsive event dashboard for university students to discover and exp
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -35,14 +35,14 @@ src/
 └── index.js         # Entry point
 ```
 
-## 🎨 Tech Stack
+##  Tech Stack
 
 - React 18
 - Tailwind CSS
 - Lucide React (icons)
 - JavaScript ES6+
 
-## 📝 Adding New Events
+##  Adding New Events
 
 Edit `src/data/eventData.js` and add new event objects with the following structure:
 
@@ -58,7 +58,7 @@ Edit `src/data/eventData.js` and add new event objects with the following struct
 }
 ```
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Backend integration
 - User authentication
@@ -67,19 +67,18 @@ Edit `src/data/eventData.js` and add new event objects with the following struct
 - Calendar view
 - Email notifications
 
-## 📄 License
+##  License
 
 MIT License - Feel free to use this project for your college!
 ```
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 1. **Create a new React app** (if starting from scratch):
    ```bash
-   npx create-react-app mrdu-events
-   cd mrdu-events
+   cd MRDUEvents
    ```
 
 2. **Install Tailwind CSS**:
@@ -104,7 +103,7 @@ The app will open at `http://localhost:3000`
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All dates in `eventData.js` are set relative to the current date for demo purposes
 - You can easily modify the dates to match your actual events
@@ -112,4 +111,9 @@ The app will open at `http://localhost:3000`
 - The app is fully responsive and works on mobile, tablet, and desktop
 - No backend required - all data is stored locally in JavaScript
 
-Enjoy your beautiful event dashboard! 🎉
+Enjoy your beautiful event dashboard! 
+## Demonstration
+Here's how the dashboard looks!
+![Overall Dashboard](./images/MRDUEvents-webpage-screenshot.jpeg)
+![Search Bar](./images/MRDUEvents-searchbar-demo.jpeg)
+![Filter](./images/MRDUEvents-filter-demo.jpeg)
